@@ -108,3 +108,51 @@ section h2 {
   font-size: 1.5rem;
   margin-top: auto;
 }
+
+/* Form Styling */
+form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form input,
+form textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: #242424;
+  color: #fff;
+  font-family: inherit;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #646cff;
+}
+
+form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+form button[type="submit"] {
+  background-color: #646cff;
+  color: white;
+}
+
+form button[type="submit"]:hover {
+  background-color: #535bf2;
+}
+
+p {
+  text-align: center;
+  justify-content: center;
+}
